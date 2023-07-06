@@ -1,0 +1,12 @@
+- id: dart-analyze
+  name: dart analyze
+  description: Run `dart analyze` on files.
+  entry: dart analyze
+  language: system
+  files: \.dart$
+- id: dart-format
+  name: dart format
+  description: Run `dart format` on files.
+  entry: dart format --set-exit-if-changed
+  language: system
+  files: \.dart$
