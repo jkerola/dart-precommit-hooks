@@ -10,7 +10,7 @@ Add the following to your `.pre-commit-config.yaml` file:
 
 ```yaml
 repos:
-  - repo: https://github.com/jkerola/dart-analyze-precommit
+  - repo: https://github.com/jkerola/dart-precommit-hooks
     rev: v1.0.0
     hooks:
       - id: dart-analyze
@@ -21,7 +21,7 @@ Including and excluding files is supported:
 
 ```yaml
 repos:
-  - repo: https://github.com/jkerola/dart-analyze-precommit
+  - repo: https://github.com/jkerola/dart-precommit-hooks
     rev: v1.0.0
     hooks:
       - id: dart-analyze
